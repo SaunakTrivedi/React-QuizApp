@@ -5,6 +5,7 @@ run-as: root
 phases:
   pre_build:
     commands:
+      - docker login -u saunaktrivedi1209@gmail.com -p Sonu@1209 
       - npm install
       - npm cache clean --force
       - echo Logging in to Amazon ECR.....  
