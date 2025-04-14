@@ -6,9 +6,9 @@ As you answer questions, the app instantly updates your score and provides a com
 
 # Demo
 
- [WEBSITE-Demo](https://vinayak9669.github.io/React-QuizApp/)
+ [WEBSITE-Demo](https://bqmpqfpbe7.execute-api.ap-south-1.amazonaws.com/)
  
- [Check out the LinkedIn Post with Video Demo](https://www.linkedin.com/posts/vinay1998_reactjs-webdevelopment-frontenddevelopment-activity-7125437291241644032-3ko7?utm_source=share&utm_medium=member_desktop)
+ 
 
 ## 🛠️Technology Used 
 
@@ -35,7 +35,7 @@ As you answer questions, the app instantly updates your score and provides a com
 1. Clone the repository:
 
     ```bash
-   gh repo clone VINAYAK9669/React-QuizApp
+   gh repo clone SaunakTrivedi/React-QuizApp
     ```
 
 2. Install dependencies:
@@ -50,7 +50,11 @@ As you answer questions, the app instantly updates your score and provides a com
     ```bash
     npm start
     ```
+## Command For Build 
 
-## 📱Responsiveness 
-![ScreenShots](ScreenShots/React_Quiz_App_Responsivness.png)
+    docker build -t quiz-app .
 
+## Command To Run it locally
+
+    docker run -p 3000:3000 quiz-app  (3000 is port number)
+    
