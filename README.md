@@ -56,5 +56,5 @@ As you answer questions, the app instantly updates your score and provides a com
 
 ## Command To Run it locally
 
-    docker run -p 3000:3000 quiz-app  (3000 is port number)
+    docker run -p 3000:3000 quiz-app  
     
