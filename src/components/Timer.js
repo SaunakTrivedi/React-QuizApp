@@ -17,8 +17,8 @@ function Timer({ dispatch, secondsRemaining }) {
 
   return (
     <div className="timer">
-      {mins < 10 && "0"}
-      {mins}:{seconds < 10 && "0"}
+      {mins < 10 }
+      {mins}:{seconds < 10 }
       {seconds}
     </div>
   );
